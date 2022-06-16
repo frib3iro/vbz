@@ -13,7 +13,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 # Copie a chave pública SSH para a sua área de transferência e adicione ao github.
-cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub | xclip
 
 # Testar a conexão SSH
 ssh -T git@github.com

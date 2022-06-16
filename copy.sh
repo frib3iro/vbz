@@ -40,8 +40,15 @@ cmd[13]=$(mkdir -p /home/fabio/.vim/pack/themes/start)
 cmd[14]=$(cp -r ProjectsGeany /home/fabio/Documentos)
 cmd[15]=$(cp -r NetBeansProjects /home/fabio/Documentos)
 cmd[16]=$(cp -r repos /home/fabio/Documentos)
+cmd[17]=$(cp -r .themes /home/fabio)
+cmd[18]=$(cp -r .icons /home/fabio)
 
-for i in {3..16}
+# Descompactando arquivos ---------------------------------------
+echo -e "${s} ${b}Descompactando arquivos ocultos...${f}"
+unzip ocultos.zip
+
+# Comandos ------------------------------------------------------
+for i in {3..18}
 do
     echo ${msg[2]}
     if echo ${cmd[$i]}

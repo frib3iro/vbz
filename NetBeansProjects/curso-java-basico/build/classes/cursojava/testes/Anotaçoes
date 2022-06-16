@@ -1,0 +1,13 @@
+crie um Set de números
+
+ao sortear 1 número, verifique se esse número já existe no Set
+
+se já existe
+sorteie outro número e verifique novamente
+se não existe
+adicione o número sorteado ao set, e retorne o valor.
+
+posição: 0  1  2  3  4  5
+array:  01 02 04 02 07 08 
+        
+        i = 0   j + 1 = 

@@ -1,0 +1,2 @@
+doomfire.DoomFire
+doomfire.ColorPalette
